@@ -5,8 +5,9 @@ import Modal from "react-modal";
 import "./LuckyDrawSpinWheel.css"; // Ensure this CSS file is correctly set up
 import logo from "./aditya-birla-logo.png"; // Replace with the correct path to your logo
 
+
 const initialParticipants = [
-  { name: "MANOJ AWASTHI", policy: "009535839" },
+  { name: "MANOJ AWASTHI", policy: "009535398" },
   { name: "AJAY SINGH KATIYAR", policy: "009516782" },
   { name: "NITIN TRIPATHI", policy: "009510518" },
   { name: "ANUP KUMAR TIWARI", policy: "009502795" },
@@ -22,13 +23,13 @@ const initialParticipants = [
   { name: "SHALINI", policy: "009311954" },
   { name: "ABHISHEK VERMA", policy: "009315408" },
   { name: "ARJU MISHRA", policy: "009305535" },
-  { name: "POORNIMA SINGH", policy: "009308182" },
   { name: "RAJIV KUMAR AGARWAL", policy: "009309088" },
   { name: "SUDHIR TIWARI", policy: "009301787" },
   { name: "NISHA KATIYAR", policy: "009290170" },
-  { name: "SANJAY SINGH", policy: "009309084" },
-  { name: "AATM PRAKASH", policy: "009444567" },
-  { name: "PRAMOD YADAV", policy: "009404172" },
+  { name: "RAJESH KUMAR TIWARI", policy: "009309084" },
+  { name: "SANJAY SINGH", policy: "009308128" },
+  { name: "AATM PRAKASH", policy: "009444657" },
+  { name: "PRAMOD YADAV", policy: "009404271" },
   { name: "AMITABH PORWAL", policy: "009371335" },
   { name: "UTKARSH MISHRA", policy: "009311949" },
 ];
@@ -96,7 +97,6 @@ const LuckyDrawSpinWheel = () => {
     const updatedParticipants = participants.filter(
       (participant) => participant.name !== winner.name
     );
-    // console.log(updatedParticipants);
     setParticipants(updatedParticipants);
   };
 
